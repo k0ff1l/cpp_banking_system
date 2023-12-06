@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 
-TEST(foo, foo_1){
+TEST(foo, foo_1) {
   ASSERT_TRUE(true);
   std::cout << "True";
 }
