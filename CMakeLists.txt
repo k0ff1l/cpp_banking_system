@@ -16,7 +16,7 @@ set(TEST_NAME ${PROJECT_NAME}_tests)
 file(GLOB TESTS "tests/*_tests.cpp")
 
 # Добавляем все исходные файлы
-file(GLOB SOURCE "src/*.cpp")
+file(GLOB SOURCE "src/*/*.cpp")
 
 # Объединяем все списки исходных файлов
 set(ALL_SOURCES ${TESTS} ${SOURCE})
